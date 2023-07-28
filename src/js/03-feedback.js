@@ -39,7 +39,7 @@ const saveFormInput = e => {
 const getData = e => {
   e.preventDefault();
 
-  console.log(parsedStorage);
+  console.log(localStorage.getItem('feedback-form-state'));
 
   refs.form.reset();
 
